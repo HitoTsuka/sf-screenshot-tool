@@ -22,3 +22,26 @@ These libraries can be installed using the following command:
 ```
 pip install selenium Pillow
 ```
+### Installation
+1. Clone or download this repository.
+```
+git clone https://github.com/HitoTsuka/sf-screenshot-tool.git
+cd sf-screenshot-tool
+```
+2. Install the required libraries.
+```
+pip install -r requirements.txt
+```
+
+### Usage
+To run the script, use the following command:
+```
+python src/sf_screenshot.py
+```
+
+### Configuration
+To customize how the script operates, adjust the settings within src/utils.py.
+For example, you can change the URLs or identifiers of the Salesforce elements from which screenshots are to be taken.
+
+## Author
+HitoTsuka
